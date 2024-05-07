@@ -1,0 +1,62 @@
+/* FairyTale.css */
+.flex {
+	display: flex;
+}
+.animation-layer {
+	background-position: bottom center;
+	background-size: auto 1000px;
+	width: 100%;
+	height: 100%;
+}
+
+#parallax-01 {
+	background-image: url(../../images/parallax-01.png);
+}
+#parallax-02 {
+	background-image: url(../../images/parallax-02.png);
+}
+#parallax-03 {
+	background-image: url(../../images/parallax-03.png);
+}
+#parallax-04 {
+	background-image: url(../../images/parallax-04.png);
+}
+#parallax-05 {
+	background-image: url(../../images/parallax-05.png);
+}
+#parallax-06 {
+	background-image: url(../../images/parallax-06.png);
+}
+#parallax-07 {
+	background-image: url(../../images/parallax-07.png);
+}
+#parallax-08 {
+	background-image: url(../../images/parallax-08.png);
+}
+#parallax-09 {
+	background-image: url(../../images/parallax-09.png);
+}
+
+.textblock {
+	background-color: #210002;
+	height: 100vh;
+	padding: 0 15%;
+	display: flex;
+	align-items: center;
+}
+
+.textblock h1 {
+	color: #ffaf1b;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.textblock p {
+	color: #ffaf1b;
+	font-size: 20px;
+	line-height: 35px;
+}
+.fix {
+	background-color: #210002;
+	height: 1000px;
+}

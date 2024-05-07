@@ -1,0 +1,36 @@
+footer {
+	width: 100%;
+	background-color: #161616;
+	display: flex;
+	color: white;
+	font-weight: 300;
+}
+.LogoFooter {
+	margin-left: 5%;
+	width: 25%;
+}
+.LogoFooter img {
+	width: 160px;
+}
+.AboutUs {
+	width: 40%;
+}
+.FooterNavigation {
+	width: 35%;
+	text-align: center;
+}
+
+.FooterNavigation ul {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+}
+.FooterNavigation ul li {
+	text-align: center;
+	display: inline-block;
+	margin: 12px 12px;
+}
+.FooterNavigation ul li a {
+	text-decoration: none;
+	color: white;
+}

@@ -1,0 +1,31 @@
+.MakingOf {
+	background-color: aqua;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: flex;
+}
+.Thumbnail {
+	width: 100%;
+}
+.Thumbnail img {
+	width: 100%;
+	height: 100%;
+}
+.Descriptionn {
+	width: 100%;
+}
+
+.description {
+	flex: 1;
+}
+.video {
+	flex: 1;
+}
+.ExtraFootage {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.ExtraFootage img {
+	width: 250px;
+}

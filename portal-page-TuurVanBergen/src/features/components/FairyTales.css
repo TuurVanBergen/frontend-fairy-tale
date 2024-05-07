@@ -1,0 +1,31 @@
+.FairyTales {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: white;
+	font-weight: 300;
+}
+.card {
+	position: relative;
+	width: 26%;
+	height: auto;
+	height: 200px; /* Vaste hoogte ingesteld */
+	margin-bottom: 2%;
+	overflow: hidden; /* Zorgt ervoor dat inhoud binnen de vaste hoogte blijft */
+}
+.card img {
+	width: 100%;
+	height: 100%; /* Zorgt ervoor dat de afbeelding de hele kaart bedekt */
+	object-fit: cover; /* Zorgt voor goede afbeelding-scaling */
+}
+.info {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+.title {
+	width: 100%;
+}

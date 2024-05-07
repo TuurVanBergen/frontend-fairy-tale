@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+nav {
+	background-color: #161616;
+	display: flex;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	font-family: "Merriweather Sans", sans-serif;
+	font-weight: 300;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 0.5%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	position: fixed;
+}
+.Logo {
+	width: 25%;
+	margin-top: 1.5%;
+	margin-left: 5%;
+}
+.SearchBar {
+	width: 47.5%;
+	display: flex;
+	justify-content: center;
+}
+.SearchBar input {
+	width: 400px;
+	height: 45px;
+	border-radius: 12px;
+	text-align: left;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding-left: 50px;
+	caret-color: white;
+	color: white;
+	border: none;
+	outline: none;
+	background-color: #212121;
+
+	&::placeholder {
+		color: rgba(255, 255, 255, 0.6);
+	}
+}
+.inputSearch {
+	display: block;
+	background: url("../../assets/Icon awesome-search.svg") no-repeat 13px;
+}
+
+.Navigation {
+	width: 27.5%;
+	margin-bottom: 0.5%;
+}
+.Navigation ul {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+}
+.Navigation ul li {
+	text-align: center;
+	display: inline-block;
+	margin: 12px 12px;
+}
+.Navigation ul li a {
+	text-decoration: none;
+	color: white;
+}
+.Navigation ul li a:hover {
+	background-color: white;
+	padding: 10px 20px;
+	color: #161616;
+	border-radius: 20px;
+}
