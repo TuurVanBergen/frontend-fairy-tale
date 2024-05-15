@@ -4,8 +4,10 @@ footer {
 	display: flex;
 	color: white;
 	font-weight: 300;
+	padding-bottom: 40px;
 }
 .LogoFooter {
+	margin-top: 35px;
 	margin-left: 5%;
 	width: 25%;
 }

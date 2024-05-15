@@ -1,32 +1,54 @@
 .FairyTales {
-	padding-top: 180px;
+	padding-top: 150px;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-left: 5%;
-	margin-right: 5%;
 	color: white;
 	font-weight: 300;
+	margin-bottom: 60px;
+	margin-left: 5%;
 }
 .card {
+	margin-right: 30px;
+	height: 395px;
+	width: 345px;
 	position: relative;
-	width: 26%;
-	height: auto;
-	height: 200px; /* Vaste hoogte ingesteld */
-	margin-bottom: 2%;
-	overflow: hidden; /* Zorgt ervoor dat inhoud binnen de vaste hoogte blijft */
+	margin-bottom: 20px;
 }
 .card img {
+	display: block;
 	width: 100%;
-	height: 100%; /* Zorgt ervoor dat de afbeelding de hele kaart bedekt */
-	object-fit: cover; /* Zorgt voor goede afbeelding-scaling */
+	height: 100%;
+	display: block;
 }
-.info {
+.information {
+	margin-top: 80%;
+	margin-left: 7.5%;
 	position: absolute;
-	bottom: 8px;
-	left: 16px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+}
+.information h3 {
+	margin-bottom: 5px;
+}
+.information p {
+	margin: 0;
+}
+.button {
+	width: 100%;
+	text-align: center;
+}
+button {
+	padding: 10px;
+	color: white;
+	background-color: #4f836b;
+	border: none;
+	border-radius: 10px;
 }
 .title {
 	width: 100%;
+	color: white;
 }

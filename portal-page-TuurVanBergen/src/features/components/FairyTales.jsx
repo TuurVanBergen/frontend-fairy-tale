@@ -1,29 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./FairyTales.css";
-import apiGet from "../../core/utils/api.jsx";
-import { useEffect, useState } from "react";
-import DATA from "../../assets/FairyTales.json";
 import FairyTale from "./FairyTale.jsx";
-// const url = "../../assets/FairyTales.json";
+import { useOutletContext } from "react-router-dom";
 
-function FairyTales() {
-	// const [apiData, setApiData] = useState([]);
+function FairyTales({ filter }) {
+	const { filteredMovies } = useOutletContext();
+	const [visibleCount, setVisibleCount] = useState(3);
 
-	// useEffect(() => {
-	// 	async function apiCall() {
-	// 		const result = await apiGet(url);
-	// 		setApiData(result);
-	// 		console.log(result);
-	// 	}
-	// 	apiCall();
-	// }, []);
+	const toggleView = () => {
+		if (visibleCount === 3) {
+			setVisibleCount(filteredMovies.length);
+		} else {
+			setVisibleCount(3);
+		}
+	};
+
+	const filteredFairyTales = filteredMovies.filter(
+		(item) => filter === "" || item.genre === filter
+	);
 
 	return (
 		<div className="FairyTales">
 			<div className="title">
 				<h1>Populair</h1>
 			</div>
-			{DATA.map((item) => (
+			{filteredFairyTales.slice(0, visibleCount).map((item) => (
 				<FairyTale
 					key={item.key}
 					name={item.name}
@@ -31,14 +32,11 @@ function FairyTales() {
 					link={item.link}
 				/>
 			))}
-			{/* <div className="card">
-				<img src={img1} alt="" />
-				<div className="info">
-					<h3>Rapunzel</h3>
-					<p>Student</p>
-					<p>Hasan Taha</p>
-				</div>
-			</div> */}
+			<div className="button">
+				<button onClick={toggleView} className="toggle-button">
+					{visibleCount === 3 ? "Load More" : "Load Less"}
+				</button>
+			</div>
 		</div>
 	);
 }

@@ -1,6 +1,9 @@
 import "./Footer.css";
 import Logo from "../../assets/logo2.svg";
+import { Link } from "react-router-dom";
+import React from "react";
 function Footer() {
+	const base = "/frontend-courseproject-TuurVanBergen/";
 	return (
 		<footer id="pageBottom">
 			<div className="LogoFooter">
@@ -20,10 +23,10 @@ function Footer() {
 			<div className="FooterNavigation">
 				<ul>
 					<li>
-						<a href="#">Sprookjes</a>
+						<Link to={base}>Sprookjes</Link>
 					</li>
 					<li>
-						<a href="#">Making Of</a>
+						<Link to={base + "makingOf"}>Making Of</Link>
 					</li>
 				</ul>
 			</div>

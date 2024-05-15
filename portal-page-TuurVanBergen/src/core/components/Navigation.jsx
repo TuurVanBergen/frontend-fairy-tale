@@ -1,22 +1,23 @@
+import React from "react";
 import logo from "../../assets/logo.svg";
 import "./Navigation.css";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const base = "/frontend-courseproject-TuurVanBergen/";
-
-function Navigation() {
+function Navigation({ setSearchTerm }) {
+	const base = "/frontend-courseproject-TuurVanBergen/";
 	return (
 		<nav>
 			<div className="Logo">
-				<img src={logo} alt="" />
+				<Link to={base}>
+					<img src={logo} alt="" />
+				</Link>
 			</div>
 			<div className="SearchBar">
 				<input
 					className="inputSearch"
-					type="search"
-					name=""
-					id=""
+					type="text"
 					placeholder="Zoek hier naar een topic"
+					onChange={(event) => setSearchTerm(event.target.value)}
 				/>
 			</div>
 			<div className="Navigation">

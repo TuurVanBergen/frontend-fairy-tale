@@ -3,54 +3,63 @@
 		"key": 1,
 		"name": "Archana",
 		"age": "21",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Magie en Betovering"
 	},
 	{
 		"key": 2,
 		"name": "Shelly",
 		"age": "25",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Queesten en reizen"
 	},
 	{
 		"key": 3,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Moraliteit en lessen"
 	},
 	{
-		"key": 3,
+		"key": 4,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Dierenverhalen"
 	},
 	{
-		"key": 3,
+		"key": 5,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Trucs en Slimme helden"
 	},
 	{
-		"key": 3,
+		"key": 6,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Trucs en Slimme helden"
 	},
 	{
-		"key": 3,
+		"key": 7,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Dierenverhalen"
 	},
 	{
-		"key": 3,
+		"key": 8,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Moraliteit en lessen"
 	},
 	{
-		"key": 3,
+		"key": 9,
 		"name": "Pranjal",
 		"age": "30",
-		"link": "Sprookje"
+		"link": "Sprookje",
+		"genre": "Queesten en reizen"
 	}
 ]
