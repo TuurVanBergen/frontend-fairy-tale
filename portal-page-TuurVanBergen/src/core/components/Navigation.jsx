@@ -2,6 +2,8 @@ import logo from "../../assets/logo.svg";
 import "./Navigation.css";
 import { Link, Outlet } from "react-router-dom";
 
+const base = "/frontend-courseproject-TuurVanBergen/";
+
 function Navigation() {
 	return (
 		<nav>
@@ -23,10 +25,10 @@ function Navigation() {
 						<a href="#pageBottom">About Us</a>
 					</li>
 					<li>
-						<Link to="/">Sprookjes</Link>
+						<Link to={base}>Sprookjes</Link>
 					</li>
 					<li>
-						<Link to="/makingOf">Making Of</Link>
+						<Link to={base + "makingOf"}>Making Of</Link>
 					</li>
 				</ul>
 			</div>

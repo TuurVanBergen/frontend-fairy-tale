@@ -5,9 +5,11 @@ import { createBrowserRouter, Outlet } from "react-router-dom";
 import Sprookje from "../../features/pages/FairyTale.jsx";
 import Root from "../../features/components/Root.jsx";
 
+const base = "/frontend-courseproject-TuurVanBergen/";
+
 const router = createBrowserRouter([
 	{
-		path: "/",
+		path: base + "/",
 		element: <Root />,
 		children: [
 			{
