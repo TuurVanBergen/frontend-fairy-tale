@@ -1,9 +1,12 @@
 import "./MakingOfSection.css";
-import image from "../../assets/Mask Group 12.png";
-import image1 from "../../assets/Mask Group 10.png";
-import image2 from "../../assets/Mask Group 11.png";
-import image3 from "../../assets/Mask Group 9.png";
+import image from "../../assets/MakingOf4.png";
+import image1 from "../../assets/MakingOf1.png";
+import image3 from "../../assets/MakingOf3.png";
 
+//Sources used:
+//https://www.w3schools.com/tags/tag_iframe.ASP#:~:text=Definition%20and%20Usage,%3E%20(see%20example%20below).
+
+//HTML / JSX for the MakingOfSection component
 function MakingOfSection() {
 	return (
 		<div className="MakingOf">
@@ -12,41 +15,40 @@ function MakingOfSection() {
 				<div className="Thumbnail">
 					<img src={image} alt="" />
 					<div className="info">
-						<h1>Rapunzel</h1>
+						<h1>The Twelve Brothers</h1>
 						<h4>By Tuur Van Bergen</h4>
 					</div>
 				</div>
 				<div className="Descriptionn">
 					<div className="video">
+						{/* Iframe: https://www.w3schools.com/tags/tag_iframe.ASP#:~:text=Definition%20and%20Usage,%3E%20(see%20example%20below).*/}
 						<iframe src="https://vimeo.com/520851183" allowFullScreen></iframe>
 					</div>
 					<div className="desc">
 						<h2>Description</h2>
 						<p>
-							Op onze website maken we gebruik van verschillende
-							parallax-effecten om onze sprookjes tot leven te brengen:
+							Deze website maakt gebruik van verschillende parallax-effecten de
+							sprookjes tot leven te brengen.
 							<br /> <br />
-							1.Standaard parallax bij introductie: Als je begint te scrollen,
-							beweegt de toren en de struik met verschillende snelheden,
-							waardoor een gevoel van diepte ontstaat. Naarmate je verder
-							scrolt, zoomt de struik in en verdwijnt, terwijl de toren
-							duidelijker wordt weergegeven. <br /> <br />
-							2. Mouse parallax voor het beginvan het verhaal: Beweeg je muis
-							over de scroll, en je krijgt het volledige scroll te zien, samen
-							met het begin van het verhaal. Dit geeft de lezer controle over de
-							snelheid van het verhaal. <br /> <br />
-							3. Multi parallax voor de beweging van de toren en de heks: Na het
-							scrollen beweegt de toren naar rechts en zoomt in, terwijl een
-							multi parallax-effect wordt geactiveerd. Hierin zie je de heks
-							horizontaal verschuiven. Als je op de knop naast de heks drukt,
-							zal het haar van Raponsje verticaal naar beneden dalen.
+							1. Standaard Parallax: Bij het scrollen bewegen verschillende
+							elementen met verschillende snelheden, wat een diepte-effect
+							creëert. Verder scrollen laat bepaalde elementen inzoomen en
+							verdwijnen, terwijl andere duidelijker worden.
+							<br /> <br />
+							2. Muisparallax: Beweeg je muis over de pagina en zie hoe de lagen
+							van de illustraties reageren, waardoor je controle hebt over de
+							snelheid van het verhaal.
+							<br /> <br />
+							3. CSS-animaties: Deze zorgen voor vloeiende visuele effecten en
+							maken de tekst interactiever. Teksten bewegen subtiel en reageren
+							dynamisch op de acties van de gebruiker, waardoor de leeservaring
+							levendiger wordt.
 						</p>
 					</div>
 				</div>
 				<div className="ExtraFootage">
 					<h2>Extra beeldmateriaal</h2>
 					<img src={image1} alt="" />
-					<img src={image2} alt="" />
 					<img src={image3} alt="" />
 				</div>
 			</div>

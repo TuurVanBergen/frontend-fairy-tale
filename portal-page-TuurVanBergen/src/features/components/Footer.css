@@ -1,3 +1,4 @@
+/* Styling layout footer */
 footer {
 	width: 100%;
 	background-color: #161616;
@@ -6,22 +7,31 @@ footer {
 	font-weight: 300;
 	padding-bottom: 40px;
 }
+
+/* Styling image container */
 .LogoFooter {
 	margin-top: 35px;
 	margin-left: 5%;
 	width: 25%;
 }
+
+/* Styling logo */
 .LogoFooter img {
 	width: 160px;
 }
+
+/* Styling AboutUs container*/
 .AboutUs {
 	width: 40%;
 }
+
+/* Styling FooterNavigation container */
 .FooterNavigation {
 	width: 35%;
 	text-align: center;
 }
 
+/* Styling Navigation inside footer */
 .FooterNavigation ul {
 	list-style-type: none;
 	padding: 0;

@@ -5,6 +5,7 @@ import "./Home.css";
 
 import React, { useState } from "react";
 
+//https://www.openai.com/ used ChatGPT for error solving
 function App() {
 	const [filter, setFilter] = useState("");
 

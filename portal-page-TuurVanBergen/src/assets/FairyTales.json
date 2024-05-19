@@ -1,65 +1,234 @@
 [
 	{
 		"key": 1,
-		"name": "Archana",
-		"age": "21",
-		"link": "Sprookje",
-		"genre": "Magie en Betovering"
+		"name": "Taysir Alshahrour",
+		"title": "roodkapje",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-Taysir96/",
+		"genre": "Magie en Betovering",
+		"img": "../../assets/sprookje2.png"
 	},
 	{
 		"key": 2,
-		"name": "Shelly",
-		"age": "25",
-		"link": "Sprookje",
-		"genre": "Queesten en reizen"
+		"name": "Stephen Asante",
+		"title": "#",
+		"link": "https://probable-enigma-yrq581q.pages.github.io/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
 	},
 	{
 		"key": 3,
-		"name": "Pranjal",
-		"age": "30",
-		"link": "Sprookje",
-		"genre": "Moraliteit en lessen"
+		"name": "Youssef Auassar",
+		"title": "Ali baba en de veertig rovers",
+		"link": "https://ehb-mct.github.io/web2-course-project-front-end-YoussefAuassar/",
+		"genre": "Moraliteit en lessen",
+		"img": "../../assets/Mask Group 6.png"
 	},
 	{
 		"key": 4,
-		"name": "Pranjal",
-		"age": "30",
-		"link": "Sprookje",
-		"genre": "Dierenverhalen"
+		"name": "Maxime Bastien",
+		"title": "Hans & Grietje",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-Maxime122004/HansGrietje",
+		"genre": "Dierenverhalen",
+		"img": "../../assets/Mask Group 6.png"
 	},
 	{
 		"key": 5,
-		"name": "Pranjal",
-		"age": "30",
-		"link": "Sprookje",
-		"genre": "Trucs en Slimme helden"
+		"name": "Kobe Berckmans",
+		"title": "Klein duimpje",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-KobeBerckmans/parallax",
+		"genre": "Trucs en Slimme helden",
+		"img": "../../assets/sprookje2.png"
 	},
 	{
 		"key": 6,
-		"name": "Pranjal",
-		"age": "30",
-		"link": "Sprookje",
-		"genre": "Trucs en Slimme helden"
+		"name": "Mikolaj Buelens",
+		"title": "De wolf en de zeven geitjes",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-mikolajbuelens/",
+		"genre": "Trucs en Slimme helden",
+		"img": "../../assets/Mask Group 6.png"
 	},
 	{
 		"key": 7,
-		"name": "Pranjal",
-		"age": "30",
-		"link": "Sprookje",
-		"genre": "Dierenverhalen"
+		"name": "Robbe De Clerck",
+		"title": "#",
+		"link": "https://github.com/EHB-MCT/frontend-courseproject-RobbeDeClerck",
+		"genre": "Dierenverhalen",
+		"img": "../../assets/sprookje2.png"
 	},
 	{
 		"key": 8,
-		"name": "Pranjal",
-		"age": "30",
-		"link": "Sprookje",
-		"genre": "Moraliteit en lessen"
+		"name": "Zani Dobruna",
+		"title": "Roodkapje",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-Zani10/fairytale/Roodkapje",
+		"genre": "Moraliteit en lessen",
+		"img": "../../assets/Mask Group 6.png"
 	},
 	{
 		"key": 9,
-		"name": "Pranjal",
-		"age": "30",
+		"name": "Wail El Majdoubi",
+		"title": "Beauty and the Beast",
+		"link": "https://scaling-adventure-yrzmqkw.pages.github.io/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje2.png"
+	},
+	{
+		"key": 10,
+		"name": "Nelle Favoreel",
+		"title": "De kleine zeemeermin",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-NelleFavoreel/ ",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 11,
+		"name": "Ines Frederickx",
+		"title": "#",
+		"link": "#",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 12,
+		"name": "Jorbe Geys",
+		"title": "Rapunzel",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-JorbeGeys/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 13,
+		"name": "Rémy Gistelinck",
+		"title": "De Minotaurus",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-remygist/minotaur",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 14,
+		"name": "Taha Hasan",
+		"title": "Raponsje",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-tahahasan7/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 15,
+		"name": "Thomas Heusdens",
+		"title": "The ugly duckling",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-ThomasHeusdens/sprookje",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 16,
+		"name": "Milan Langhendries",
+		"title": "Hans en Grietje",
+		"link": "https://upgraded-train-n84y6yw.pages.github.io/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 17,
+		"name": "Naïl L'Maimouni",
+		"title": "#",
+		"link": "#",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 18,
+		"name": "Joel Lopez Mendez",
+		"title": "#",
+		"link": "https://literate-broccoli-yrqokmg.pages.github.io/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 19,
+		"name": "Glory Menga",
+		"title": "De princess en de erwt",
+		"link": " https://ehb-mct.github.io/frontend-courseproject-GloryMenga/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 20,
+		"name": "Ernest Marot",
+		"title": "30",
+		"link": "#",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje2.png"
+	},
+	{
+		"key": 21,
+		"name": "Naomi Quist",
+		"title": "30",
+		"link": "#",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje2.png"
+	},
+	{
+		"key": 22,
+		"name": "Michaël Stoikos",
+		"title": "Sleeping Beauty",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-MichaelStoikos",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje2.png"
+	},
+	{
+		"key": 23,
+		"name": "Jochen Sunaert",
+		"title": "Repelsteeltje",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-JochenSunaert/repelsteeltje",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje1.png"
+	},
+	{
+		"key": 24,
+		"name": "Yassine Tazi",
+		"title": "De Kikker en de Os.",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-YassineTazi2022/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 25,
+		"name": "Berkay Unutkan",
+		"title": "De wolf en zeven geiten",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-BerkayUnutkanEHB/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 26,
+		"name": "Tuur Van Bergen",
+		"title": "The Twelve Brothers",
 		"link": "Sprookje",
-		"genre": "Queesten en reizen"
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje2.png"
+	},
+	{
+		"key": 27,
+		"name": "Rachelle van Uden",
+		"title": "De drie biggetjes",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-RachellevanUden/DeDrieBiggetjes",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 28,
+		"name": "Karsten Verherstraeten",
+		"title": "Aladdin",
+		"link": "https://ehb-mct.github.io/frontend-courseproject-KarstenVerherstraeten/",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/Mask Group 6.png"
+	},
+	{
+		"key": 29,
+		"name": "Maxim Westerbeek",
+		"title": "#",
+		"link": "#",
+		"genre": "Queesten en reizen",
+		"img": "../../assets/sprookje2.png"
 	}
 ]

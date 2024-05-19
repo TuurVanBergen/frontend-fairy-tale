@@ -1,5 +1,3 @@
-import "./MakingOf.css";
-import Navigation from "../../core/components/Navigation.jsx";
 import Footer from "../components/Footer.jsx";
 import FilterMenu from "../components/FilterMenu.jsx";
 import "../../App.css";

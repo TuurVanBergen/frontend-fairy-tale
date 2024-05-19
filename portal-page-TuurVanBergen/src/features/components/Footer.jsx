@@ -2,7 +2,10 @@ import "./Footer.css";
 import Logo from "../../assets/logo2.svg";
 import { Link } from "react-router-dom";
 import React from "react";
+
+// HTML / JSX for the footer.
 function Footer() {
+	// Defining the base url
 	const base = "/frontend-courseproject-TuurVanBergen/";
 	return (
 		<footer id="pageBottom">
@@ -23,6 +26,7 @@ function Footer() {
 			<div className="FooterNavigation">
 				<ul>
 					<li>
+						{/* "Link" Enables navigation between different components */}
 						<Link to={base}>Sprookjes</Link>
 					</li>
 					<li>

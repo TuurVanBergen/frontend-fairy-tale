@@ -1,5 +1,10 @@
+/* Sources used */
+/* https://www.w3schools.com/cssref/sel_placeholder.php, Change color of placeholder searchbar*/
+
+/* import font */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+/* styling main nav component */
 nav {
 	background-color: #161616;
 	display: flex;
@@ -14,16 +19,22 @@ nav {
 	position: fixed;
 	z-index: 200;
 }
+
+/* Logo section */
 .Logo {
 	width: 25%;
 	margin-top: 1.5%;
 	margin-left: 5%;
 }
+
+/* Searchbar section */
 .SearchBar {
 	width: 47.5%;
 	display: flex;
 	justify-content: center;
 }
+
+/* Styling the searchbar */
 .SearchBar input {
 	width: 400px;
 	height: 45px;
@@ -37,36 +48,46 @@ nav {
 	outline: none;
 	background-color: #212121;
 
+	/* Change color of placeholder searchbar */
 	&::placeholder {
 		color: rgba(255, 255, 255, 0.6);
 	}
 }
+
+/* Placing icon inside the searchbar */
 .inputSearch {
 	display: block;
 	background: url("../../assets/Icon awesome-search.svg") no-repeat 13px;
 }
 
+/* Navigation section */
 .Navigation {
 	width: 27.5%;
 	margin-bottom: 0.5%;
+	font-weight: 200;
 }
+
+/* Styling navigation */
 .Navigation ul {
 	list-style-type: none;
 	padding: 0;
 	width: 100%;
+	margin-top: 20px;
 }
 .Navigation ul li {
 	text-align: center;
 	display: inline-block;
-	margin: 12px 12px;
+	margin: 12px 10px;
 }
 .Navigation ul li a {
 	text-decoration: none;
 	color: white;
+	padding: 10px 10px;
 }
+
+/* Animate on hover */
 .Navigation ul li a:hover {
 	background-color: white;
-	padding: 10px 20px;
 	color: #161616;
 	border-radius: 20px;
 }

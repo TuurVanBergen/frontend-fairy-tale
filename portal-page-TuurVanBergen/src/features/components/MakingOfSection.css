@@ -1,14 +1,22 @@
+/* Main styling of the MakingOf layout */
 .MakingOf {
 	color: White;
 	padding-top: 180px;
 	width: 100%;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 	margin-bottom: 10%;
 }
-img {
-	width: 100px;
+
+/* Styling the Thumbnail image */
+.Thumbnail img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 15px;
 }
+
+/* Container of the MakingOf section */
 .container {
 	display: flex;
 	flex-wrap: wrap;
@@ -16,14 +24,10 @@ img {
 	justify-content: space-between;
 	background-color: #1e1e1e;
 	border-radius: 15px;
+	box-sizing: border-box;
 }
-.Thumbnail img {
-	height: auto;
-	width: 100%;
-}
-.Thumbnail {
-	width: 100%;
-}
+
+/* Styling information on the thumbnail */
 .info {
 	position: absolute;
 	top: 70%;
@@ -37,12 +41,16 @@ img {
 	margin-right: 7.5%;
 	margin-bottom: 70px;
 }
+
+/* Styling the text of Description */
 .Descriptionn h2 {
 	margin: 0;
 }
 .Descriptionn p {
 	font-weight: 100;
 }
+
+/* Styling video section */
 iframe {
 	border-radius: 15px;
 	width: 400px;
@@ -51,9 +59,13 @@ iframe {
 .video {
 	width: 50%;
 }
+
+/* Styling desc section */
 .desc {
 	width: 50%;
 }
+
+/* Styling extra footage section */
 .ExtraFootage {
 	margin-left: 7.5%;
 	margin-bottom: 7.5%;
@@ -63,4 +75,5 @@ iframe {
 .ExtraFootage img {
 	width: 250px;
 	margin-right: 20px;
+	border-radius: 15px;
 }

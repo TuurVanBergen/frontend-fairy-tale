@@ -1,3 +1,4 @@
+/* Styling main FairyTales section */
 .FairyTales {
 	padding-top: 150px;
 	width: 100%;
@@ -8,6 +9,8 @@
 	margin-bottom: 60px;
 	margin-left: 5%;
 }
+
+/* Styling for the FairyTale card */
 .card {
 	margin-right: 30px;
 	height: 395px;
@@ -37,8 +40,10 @@
 .information p {
 	margin: 0;
 }
+
+/* Styling for the Load More / Load Less button */
 .button {
-	width: 100%;
+	width: 95%;
 	text-align: center;
 }
 button {
@@ -48,6 +53,8 @@ button {
 	border: none;
 	border-radius: 10px;
 }
+
+/* Styling Title */
 .title {
 	width: 100%;
 	color: white;
