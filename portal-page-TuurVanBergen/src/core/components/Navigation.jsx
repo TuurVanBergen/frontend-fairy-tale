@@ -4,11 +4,11 @@ import "./Navigation.css";
 import { Link } from "react-router-dom";
 
 function Navigation({ setSearchTerm }) {
-	const base = "/frontend-courseproject-TuurVanBergen/";
+	const base = "/frontend-courseproject-TuurVanBergen";
 	return (
 		<nav>
 			<div className="Logo">
-				<Link to={base}>
+				<Link to={base + "/"}>
 					<img src={logo} alt="" />
 				</Link>
 			</div>
@@ -26,10 +26,10 @@ function Navigation({ setSearchTerm }) {
 						<a href="#pageBottom">About Us</a>
 					</li>
 					<li>
-						<Link to={base}>Sprookjes</Link>
+						<Link to={base + "/"}>Sprookjes</Link>
 					</li>
 					<li>
-						<Link to={base + "makingOf"}>Making Of</Link>
+						<Link to={base + "/makingOf"}>Making Of</Link>
 					</li>
 				</ul>
 			</div>

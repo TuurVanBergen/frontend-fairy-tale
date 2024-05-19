@@ -1,40 +1,138 @@
-/* FairyTale.css */
-.flex {
-	display: flex;
+.parallax-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
 }
-.animation-layer {
-	background-position: bottom center;
-	background-size: auto 1000px;
+
+.parallax-child {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 }
 
+.parallax-child img {
+	width: 100%;
+	height: auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.animation-layer {
+	background-position: bottom center;
+	background-size: cover;
+	width: 100%;
+	height: 120%;
+}
+
 #parallax-01 {
-	background-image: url(../../images/parallax-01.png);
+	background-image: url(../../assets/1.png);
 }
-#parallax-02 {
-	background-image: url(../../images/parallax-02.png);
+
+#parallax-01-01 {
+	background-image: url(../../assets/1.2.png);
 }
+
+#parallax-01-02 {
+	background-image: url(../../assets/1.1.png);
+}
+
+#parallax-01-03 {
+	background-image: url(../../assets/1.4.png);
+}
+
+/* Layer 2 mouse parallax */
+#parallax-02-1 {
+	background-image: url(../../assets/2.3.png);
+}
+
+#parallax-02-2 {
+	background-image: url(../../assets/2.2.png);
+}
+
+#parallax-02-3 {
+	background-image: url(../../assets/2.png);
+}
+
+/* Layer 3 */
 #parallax-03 {
-	background-image: url(../../images/parallax-03.png);
+	background-image: url(../../assets/3-test.png);
+	height: 100%;
 }
+
+#parallax-03-01 {
+	background-image: url(../../assets/3.3.png);
+	height: 100%;
+}
+
+#parallax-03-02 {
+	background-image: url(../../assets/3.4.png);
+	height: 100%;
+}
+
+#parallax-03-03 {
+	background-image: url(../../assets/3.1.png);
+	height: 100%;
+}
+
+#parallax-03-04 {
+	background-image: url(../../assets/3.2.png);
+	height: 100%;
+}
+
+#parallax-03-05 {
+	background-image: url(../../assets/3.5.png);
+	height: 100%;
+}
+#parallax-03-06 {
+	background-image: url(../../assets/3.6.png);
+	height: 100%;
+}
+
+/* Layer 4 */
 #parallax-04 {
-	background-image: url(../../images/parallax-04.png);
+	background-image: url(../../assets/4.png);
 }
+
+#parallax-04-01 {
+	background-image: url(../../assets/4.1.png);
+}
+
+/* layer 5 */
 #parallax-05 {
-	background-image: url(../../images/parallax-05.png);
+	background-image: url(../../assets/5.1.png);
+	height: 120%;
 }
-#parallax-06 {
-	background-image: url(../../images/parallax-06.png);
+
+#parallax-05-01 {
+	background-image: url(../../assets/5.png);
+	height: 120%;
 }
+
+/* layer 7 */
 #parallax-07 {
-	background-image: url(../../images/parallax-07.png);
+	background-image: url(../../assets/7.1.png);
 }
+#parallax-07-01 {
+	background-image: url(../../assets/7.png);
+}
+
+/* layer 8 */
 #parallax-08 {
-	background-image: url(../../images/parallax-08.png);
+	background-image: url(../../assets/8.png);
+	height: 140%;
 }
-#parallax-09 {
-	background-image: url(../../images/parallax-09.png);
+#parallax-08-01 {
+	background-image: url(../../assets/8.1.png);
+	height: 140%;
+}
+#parallax-08-02 {
+	background-image: url(../../assets/8.2.png);
+	height: 140%;
 }
 
 .textblock {
@@ -55,8 +153,4 @@
 	color: #ffaf1b;
 	font-size: 20px;
 	line-height: 35px;
-}
-.fix {
-	background-color: #210002;
-	height: 1000px;
 }
